@@ -9,7 +9,7 @@ environment:
   TWITCH-CLIENTID:
     secure: 8clMbOxjSzj/5psxvegb31MxWKUcWQ7S/LaAzFGqGoM=
   TWITCH-HASH:
-    secure: BOdltYA5wo57aM1lBe9tiM5STu84vF1BcSps8NACer8=
+    secure: BOdltYA5wo57aM1lBe9tiEfJz27uiMEnWEs3/Mi9mLU=
 
 install:
   - git submodule update --init --recursive
