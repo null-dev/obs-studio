@@ -10,14 +10,6 @@ environment:
     secure: 8clMbOxjSzj/5psxvegb31MxWKUcWQ7S/LaAzFGqGoM=
   TWITCH-HASH:
     secure: BOdltYA5wo57aM1lBe9tiM5STu84vF1BcSps8NACer8=
-  MIXER-CLIENTID:
-    secure: lQXRRvkeZDVSTUcSaR/kthiKu89K18IubKN913PC0ldjHBQ6sWa8a/t4i1f441N3RPfzAbTrXf2ijRCYYub2Qw==
-  MIXER-HASH:
-    secure: fIxeDxHkiNodwPeNGX+E9tSpyjg/XuT+U9N+jtpT7xU=
-  RESTREAM-CLIENTID:
-    secure: 4KGqX7PbL100GhXWzMFziaHrD/XT9/QKFTGinmPqwOkfRSMMEkUyL998/z3cclUd
-  RESTREAM-HASH:
-    secure: +tu/wCCG3tXnFpjzzXF6zyAOJyt8w48qx47K1bIn/Gs=
 
 install:
   - git submodule update --init --recursive
@@ -46,11 +38,3 @@ cache:
   - 'cef_binary_%CEF_VERSION%_windows32_minimal.zip'
   - 'cef_binary_%CEF_VERSION%_windows64_minimal.zip'
   - Qt_5.10.1.7z
-
-notifications:
-  - provider: Webhook
-    url:
-      secure: k1kpaz4CB5Rg5a3MTb4XKnd76fJ+9ozz5RACVnNjdgmAjA1OSssZ6LZ3g0NGfzc/
-    headers:
-      Authorization:
-        secure: A0PBwpHtsYzBOuye1EeS0fl562T0NZEInwZp0ZVER1wLQSeE6gzWGrRo2a0E7hii
